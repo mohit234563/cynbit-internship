@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>All Registered Students</h2>
+    <div id="studentList" class="card-container"></div>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script>
+    async function fetchStudents() {
+      const res = await fetch('http://localhost:3000/students');
+      const students = await res.json();
+      const listDiv = document.getElementById('studentList');
+      listDiv.innerHTML = students.map(s => `
+        <div class="card">
+          <h3>${s.name}</h3>
+          <p>${s.email}</p>
+          <p>${s.branch} - Year ${s.year}</p>
+        </div>
+      `).join('');
+    }
+
+    function logout() {
+      alert("You have logged out!");
+      window.location.href = "login.html";
+    }
+
+    fetchStudents();
+  </script>
+</body>
+</html>

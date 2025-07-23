@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.container{
+    background-color: beige;
+    width: 45%;
+    height: auto;
+    padding: 5rem;
+    margin: 5rem;
+    border: 1px solid black;
+    border-radius:5px ;
+    box-shadow:1px 1px 5px;
+    
+}
+.OneLineIntro{
+    padding-top: 2rem;
+    max-width: 75%;
+    font-size: 1rem;
+}
+span{
+    font-weight: 100;
+    font-size: 1rem;
+}

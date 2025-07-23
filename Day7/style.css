@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    padding: 20px;
+    width: 50%;
+    /* border: 1px solid rgb(175, 173, 173); */
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap:10px;
+    margin-top:10px ;
+}
+
+input,button{
+    border-radius: 5px;
+    padding: 10px;
+}
