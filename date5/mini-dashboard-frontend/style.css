@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.card {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+/* #branchChart {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 2rem;
+} */
+.chart-container {
+  max-width: 450px;
+  margin: auto;
+}

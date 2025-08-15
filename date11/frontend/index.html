@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Pagination</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Student List</h1>
+    <input type="text" id="searchInput" placeholder="Search by name..." />
+    <select id="itemsPerPage">
+      <option value="5">5</option>
+      <option value="10" selected>10</option>
+      <option value="20">20</option>
+    </select>
+    <ul id="studentList"></ul>
+    <div class="pagination">
+      <button id="prevBtn">Previous</button>
+      <span id="pageInfo"></span>
+      <button id="nextBtn">Next</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
