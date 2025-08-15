@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.blog {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.blog h3 {
+  margin: 0;
+  color: #007bff;
+}
+
+.blog p {
+  margin: 5px 0;
+}
+
+.blog .meta {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.comment-section {
+  margin-top: 10px;
+}
+
+.comment-section input {
+  width: 48%;
+  margin-right: 2%;
+  padding: 8px;
+}
+
+.comment-section button {
+  padding: 8px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-section button:hover {
+  background-color: #218838;
+}
+
+.comments {
+  margin-top: 10px;
+  padding-left: 15px;
+  border-left: 2px solid #eee;
+}
+
+.comments li {
+  margin-bottom: 5px;
+}
